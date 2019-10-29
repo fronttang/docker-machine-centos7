@@ -11,7 +11,7 @@ echo '=============================================================='
 
 # install docker cs
 # sudo rpm --import "https://pgp.mit.edu/pks/lookup?op=get&search=0xee6d536cf7dc86e2d7d56f59a178ac6c6238f52e"
-sudo yum remove -y docker docker-common docker-selinux docker-engine
+sudo yum remove -y docker docker-common docker-selinux docker-engine docker-ce
 sudo rpm --import "https://sks-keyservers.net/pks/lookup?op=get&search=0xee6d536cf7dc86e2d7d56f59a178ac6c6238f52e"
 sudo yum install -y yum-utils device-mapper-persistent-data lvm2
 sudo yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo

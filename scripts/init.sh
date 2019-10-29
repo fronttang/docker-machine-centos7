@@ -3,7 +3,7 @@
 # initialise variables
 
 INSTALL_DOCKER_VERSION=1.11
-INSTALL_DOCKER_COMPOSE=1.8.0
+INSTALL_DOCKER_COMPOSE=1.24.1
 
 ##############################################################
 # install package etc
