@@ -20,3 +20,4 @@ chmod +x jq-linux64
 
 source /vagrant/scripts/docker-engine.sh
 source /vagrant/scripts/docker-compose.sh
+# source /vagrant/scripts/oh-my-zsh.sh
